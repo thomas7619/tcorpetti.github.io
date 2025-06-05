@@ -1,766 +1,881 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.2">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; -webkit-text-stroke: #000000}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 13.0px Courier; -webkit-text-stroke: #000000; min-height: 16.0px}
-    span.s1 {font-kerning: none}
-    span.Apple-tab-span {white-space:pre}
-  </style>
-</head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
-<p class="p1"><span class="s1">&lt;html lang="en-US"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;head&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;title&gt;Home page Thomas Corpetti&lt;/title&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="./academicons-1.9.2/css/academicons.min.css"/&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href="css/aos.css?ver=1.1.0" rel="stylesheet"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;link href="css/main.css?ver=1.1.0" rel="stylesheet"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;noscript&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;style type="text/css"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>[data-aos] {</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>opacity: 1 !important;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>transform: translate(0) scale(1) !important;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>}</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/style&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/noscript&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/head&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;body id="top"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;header&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="profile-page sidebar-collapse"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="navbar-translate"&gt;&lt;a class="navbar-brand" href="#" rel="tooltip"&gt;Home &lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"&gt;&lt;span class="navbar-toggler-bar bar1"&gt;&lt;/span&gt;&lt;span class="navbar-toggler-bar bar2"&gt;&lt;/span&gt;&lt;span class="navbar-toggler-bar bar3"&gt;&lt;/span&gt;&lt;/button&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="collapse navbar-collapse justify-content-end" id="navigation"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;ul class="navbar-nav"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item"&gt;&lt;a class="nav-link smooth-scroll" href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item"&gt;&lt;a class="nav-link smooth-scroll" href="#research"&gt;Research&lt;/a&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item"&gt;&lt;a class="nav-link smooth-scroll" href="#publications"&gt;Publications&lt;/a&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item"&gt;&lt;a class="nav-link smooth-scroll" href="#courses"&gt;Courses&lt;/a&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item"&gt;&lt;a class="nav-link smooth-scroll" href="#academic"&gt;Academic&lt;/a&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item"&gt;&lt;a class="nav-link smooth-scroll" href="#resume"&gt;Resume&lt;/a&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;li class="nav-item"&gt;&lt;a class="nav-link smooth-scroll" href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/ul&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/nav&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="page-content"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="profile-page"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="wrapper"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="page-header page-header-small" filter-color="red"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="page-header-image" data-parallax="true" style="background-image: url('images/slider1.jpg')"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="content-center"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="cc-profile-image"&gt;&lt;img src="images/tc.jpg" alt="Image"/&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="h2 title"&gt;Thomas Corpetti&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;p class="category text-white"&gt;CNRS senior researcher, methods for remote sensing &amp; environment&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;!-- &lt;a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor"&gt;Download CV&lt;/a&gt;--&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="section"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="button-container"&gt;&lt;a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/Thomascorpt"<span class="Apple-converted-space">  </span>target="_blank"<span class="Apple-converted-space">  </span>rel="tooltip" title="Follow me on Twitter"&gt;&lt;i class="fa fa-twitter"&gt;&lt;/i&gt;&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a<span class="Apple-converted-space">  </span>class="btn btn-default btn-round btn-lg btn-icon"<span class="Apple-converted-space">  </span>href="https://scholar.google.fr/citations?user=xry_FQYAAAAJ&amp;hl=fr" <span class="Apple-converted-space">  </span>target="_blank"<span class="Apple-converted-space">  </span>rel="tooltip" title="Follow me on Google Scholar"&gt;&lt;p&gt;&lt;/p&gt;&lt;i class="ai ai-google-scholar ai-2x"&gt;&lt;/i&gt;&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a class="btn btn-default btn-round btn-lg btn-icon" href="https://fr.linkedin.com/in/thomas-corpetti-68468313a" <span class="Apple-converted-space">  </span>target="_blank"<span class="Apple-converted-space">  </span>rel="tooltip" title="Follow me on Linkedin"&gt;&lt;i class="fa fa-linkedin"&gt;&lt;/i&gt;&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="section" id="about"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card" data-aos="fade-up" data-aos-offset="10"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;!-- <span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-lg-6 col-md-12"&gt;--&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h4 mt-0 title"&gt;About&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;My main research</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>topics concern the design of methodological approaches for the analysis of earth observations (images, local sensors, time series, ...). Applications concern environment (pollution, climatology, agriculture, ...)&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt; I joined &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://letg.cnrs.fr/" target="_blank" &gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>LETG-Rennes<span class="Apple-converted-space">  </span>&lt;/a&gt; and &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://osur.univ-rennes1.fr/" target="_blank" &gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>OSUR &lt;/a&gt; in 2004 and between 2009 and 2012,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>I was in Beijing, China, working for &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="http://liama.ia.ac.cn/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://liama.ia.ac.cn/" target="_blank" &gt;LIAMA&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>(Lab of Informatics, Automatics and Applied</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>Mathematics), a lab composed of Chinese : &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="http://english.ia.cas.cn/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://english.ia.cas.cn/" target="_blank" &gt;CASIA&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>(Chinese Academy of Sciences, Institute of</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>Automation), &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="https://www.tsinghua.edu.cn/en/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>href="https://www.tsinghua.edu.cn/en/" target="_blank" &gt;Tsinghua University&lt;/a&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>and European structures (&lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="http://www.inria.fr/en/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://www.inria.fr/en/" target="_blank" &gt;INRIA&lt;/a&gt;, &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="http://www.cnrs.fr/en/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://www.cnrs.fr/en/" target="_blank" &gt;CNRS&lt;/a&gt;, &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="http://www.inrae.fr/en/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://www.inrae.fr/en/" target="_blank" &gt;INRAE&lt;/a&gt;, &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="https://www.cirad.fr/en/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="https://www.cirad.fr/en/" target="_blank" &gt;CIRAD&lt;/a&gt;,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>title="http://www.groupe-ecoles-centrales.fr/"</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://www.groupe-ecoles-centrales.fr/" target="_blank" &gt;Groupe</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>des Ecoles Centrales&lt;/a&gt;).&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt; Since Oct. 2012 I came back to France as a CNRS Director of Research with LETG. I develop projects in collaboration with french and international related groups.</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;!-- <span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;--&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;!-- &lt;div class="col-lg-6 col-md-12"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h4 mt-0 title"&gt;Basic Information&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="row mt-3"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-4"&gt;&lt;strong class="text-uppercase"&gt;Email:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-8"&gt;thomas.corpetti @ cnrs.fr,<span class="Apple-converted-space">      </span>or &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-4"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-8"&gt;thomas.corpetti @ univ-rennes2.fr&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="row mt-3"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-4"&gt;&lt;strong class="text-uppercase"&gt;Phone:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-8"&gt;+33 2 99 14 18 77&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="row mt-3"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-4"&gt;&lt;strong class="text-uppercase"&gt;Address:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-sm-8"&gt;UMR 6554 LETG, Bâtiment N, Place<span class="Apple-converted-space">  </span>du Recteur Henri Le Moal, 35043 RENNES CEDEX, FRANCE&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;--&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="section" id="research"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container cc-experience"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="h4 text-center mb-4 title"&gt;Ongoing research topics&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Urban environments&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;img style="border: 2px solid ; width: 133px;" alt="" src="images/pollution.jpg"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;Analysis of urban pollution and urban heat islands&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Coupling remote senging images, onsite and simulated measurments and machine learning to understand and predict the evolution of urban pollution and heat islands. &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;With Hiba Hamdi, Laure Roupioz, Xavier Briottet, Jean Nabucet, Saho Liang, Stephanie Tumampos, Antoine Lefebvre&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Machine Learning&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;img style="border: 2px solid ; width: 133px; " alt="" src="images/ml.png"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Links between Machine Learning &amp; Physics &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt; Analysis of links between Machine Learning, Physical Processes and Optimal transport.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt; With Diego di Carlo, Nicolas Courty, Dominique Heitz &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Point cloud analysis&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;img style="border: 2px solid ; width: 133px; " alt="" src="images/lidar.png"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;Classification &amp; change detection on LiDAR data&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Efficient processing and representation of 3D point clouds ; 3D change detection&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Simulation of urban point clouds for machine learning&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;With Mathilde Letard, Iris de Gelis, Florent Guiotte,<span class="Apple-converted-space">  </span>Sébastien Lefèvre, Dimitri Lague, Antoine Collin&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Waveforms and time series&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;img style="border: 2px solid ; width: 133px;" alt="" src="images/hiatus.png"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;Analysis of remote sensing time series and/or LiDAR waveforms&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Semantic classification, structure identification, classification in waveforms&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Comparison of time series, gap filling, analysis of historical data (change detection), transfer learning&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;With Mathilde Letard,<span class="Apple-converted-space">  </span>Guglielmo Fernandez-Garcia, Dimitri Lague, Charlotte Pelletier, <span class="Apple-tab-span">	</span>Ping Tang, Zheng Zhang, Antoine Lefebvre, Arnaud Le Bris,<span class="Apple-converted-space">  </span>Antoine Collin&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Super-resolution&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;img style="border: 2px solid ; width: 133px; " alt="" src="images/sr.jpg"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;Super-resolution of SENTINEL-2 or physical data&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Neural networks for improving the spatial resolution of SENTINEL-2 and physical data (temperature, turbulence). &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;With Emilien Alvarez-Vanhard, Diego Di Carlo, Guglielmo Fernandez-Garcia, Charlotte Pelletier, Aurélie Michel, Carlos Granero-Belinchon, Antoine Lefebvre, Thomas Houet.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Remote Sensing&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;img style="border: 2px solid ; width: 133px;" alt="" src="images/beijing.gif"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;Data fusion, multiscale analysis, vegetation analysis&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Different projects related to remote sensing in general (data fuion, links with ontologies, vegetation and agriculture monitoring, ...). &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;With Carl Bethuel, Damien Arvor, Samuel Corgne, Jean Nabucet, Laurence Hubert-Moy, ...&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Kermap&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;img style="border: 2px solid ; width: 133px;" alt="" src="images/kermap.jpg"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;Consulting with SME &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://www.kermap.com/" target="_blank" &gt; kermap &lt;/a&gt; in the context of CNRS concours scientifique&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Different projects related to &lt;a</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>href="http://nimbo.earth/" target="_blank" &gt; NIMBO &lt;/a&gt; plateform (data colorization, classification, gap-filling, super-resolution, ...). &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;With Thomas Cusson, Maxime Knibbe, Nicolas Ekicier, Nicolas Beaugendre, Antoine Lefebvre.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="section" id="publications"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="col-md-11 ml-auto mr-auto" data-aos-offset="5" &gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="h4 text-center mb-4 title"&gt;Publications&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="nav-align-center"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;ul class="nav nav-pills nav-pills-primary" role="tablist"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>See my<span class="Apple-converted-space">    </span>&amp;nbsp; &lt;a href="https://scholar.google.fr/citations?user=xry_FQYAAAAJ&amp;hl=fr"<span class="Apple-converted-space">  </span>target="_blank" &gt; Google scholar profile&lt;/a&gt;. Below is a list automatically extracted from</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>&lt;a href="https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Thomas,Corpetti;T.,Corpetti&amp;labos_exp=LETG;CNRS;IRISA;LIAMA;'CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;ordre_aff=TA&amp;Fen=Aff" target="_blank" &gt;HAL&lt;/a&gt;<span class="Apple-converted-space">  </span>&amp;nbsp; (more or less up to date)</span></p>
-<p class="p1"><span class="s1">&lt;object style="width:100%;height:600px;" type="text/html" data="https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Thomas,Corpetti;T.,Corpetti&amp;labos_exp=LETG;CNRS;IRISA;LIAMA;'CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;ordre_aff=TA&amp;Fen=Aff"&gt;HAL&lt;/a&gt; &lt;/object&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/ul&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="section" id="courses"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container cc-experience"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="h4 text-center mb-4 title"&gt;Courses&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2020 -- present :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://www.master-cde.eu/"<span class="Apple-converted-space">  </span>target="_blank" &gt; Europeanmaster COPERNICUS in digital earth &lt;/a&gt;: Machine learning and physics&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2019 -- present :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://uniform.unicaen.fr/catalogue/formation/master/7032-master-geo.--amenagement--envt.-et-developpement-p.-environnement--risques-et-diagnostics-territoriaux?s=&amp;r="<span class="Apple-converted-space">  </span>target="_blank" &gt;Geography master,<span class="Apple-converted-space">  </span>Univ. Caen&lt;/a&gt;, Image processing</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2019 -- present :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://esir.univ-rennes1.fr/en/"<span class="Apple-converted-space">  </span>target="_blank" &gt; ESIR&lt;/a&gt;,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>Image indexation &amp; Machine Learning, Univ. Rennes I &lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">     </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2012 -- present :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-geographie-amenagement-environnement-et-developpement-JFJQQA25/parcours-teledetection-environnement-JFJQS6IB.html"<span class="Apple-converted-space">  </span>target="_blank" &gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>TELENVI Master, Univ. Rennes II and Agrocampus&lt;/a&gt;,<span class="Apple-converted-space">  </span>Image processing (ArcGis 10 / Python) &amp; initiation to Machine Learning, Univ. Rennes II</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2014 -- 2016 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-sm-9"&gt;&lt;a href="http://international.ens-rennes.fr/ens-rennes-english-version-253208.kjsp?RH=KERLANN_FR"<span class="Apple-converted-space">  </span>target="_blank" &gt;<span class="Apple-converted-space">  </span>ENS Rennes</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/a&gt;,<span class="Apple-converted-space">  </span>Machine Learning&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2009 -- 2017 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="http://ecpknfr.buaa.edu.cn/"<span class="Apple-converted-space">  </span>target="_blank" &gt; Ecole Centrale Beijing&lt;/a&gt;,<span class="Apple-converted-space">  </span>Partial Differential Equations for image processing&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2009 -- 2012 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="http://en.njtu.edu.cn/"<span class="Apple-converted-space">  </span>target="_blank" &gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>Beijing Jiaotong University&lt;/a&gt;,<span class="Apple-converted-space">  </span>Image processing for remote sensing&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2004 -- 2009 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://www.univ-rennes1.fr/en"<span class="Apple-converted-space">  </span>target="_blank" &gt;<span class="Apple-converted-space">  </span>Univ. Rennes I&lt;/a&gt;,<span class="Apple-converted-space">  </span>Partial Differential Equations for Image Processing</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2004 -- 2009 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-geographie-amenagement-environnement-et-developpement-JFJQQA25/parcours-teledetection-environnement-JFJQS6IB.html"<span class="Apple-converted-space">  </span>target="_blank" &gt;<span class="Apple-converted-space">  </span>Univ. Rennes II, TELENVI Master&lt;/a&gt;,<span class="Apple-converted-space">  </span>Introduction to Image Processing</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; Before 2004 &lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;Approx. 400 h in computer sciences and signal processing</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;div class="section" id="academic"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container cc-experience"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="h4 text-center mb-4 title"&gt;Academic Activities (over past 5 years)&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Administrative responsabilities&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Current &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>Responsible of &lt;a href="https://letg.cnrs.fr/article600.html"<span class="Apple-converted-space">  </span>target="_blank" &gt;LETG-Rennes &lt;/a&gt;<span class="Apple-converted-space">  </span>with Damien Arvor since 2023 &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>Co-animation of &lt;a href="http://www.madics.fr/actions/maclean/" target="_blank" &gt; MACLEAN &lt;/a&gt; (Machine learning for earth observation) action in GDR MADICS group with Samuel Corgne since 2016 &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>In charge of<span class="Apple-converted-space">  </span>&lt;a href="https://www.cnrs.fr/en/cnrs-committed-promoting-sustainable-development"<span class="Apple-converted-space">  </span>target="_blank" &gt; sustainable development<span class="Apple-converted-space">  </span>&lt;/a&gt; of UMR 6554 LETG&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;a href="https://osur.univ-rennes.fr/"<span class="Apple-converted-space">  </span>target="_blank" &gt; OSUR&lt;/a&gt;'s scientific<span class="Apple-converted-space">  </span>council member<span class="Apple-converted-space">  </span>(since 2023) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>In charge of the &lt;a href="http://liama.ia.ac.cn/research/liama-projects/259-tipe-project-description-and-achievements.html"<span class="Apple-converted-space">  </span>target="_blank" &gt;<span class="Apple-converted-space">  </span>TIPE/CARIOCA<span class="Apple-converted-space">  </span>&lt;/a&gt; research team since 2010&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Past (main ones) &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>Elected member of the scientific council of Univ. Rennes II since (2015-2023) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>In charge of the LOVE plateform (numerical aspects for environment) of OSUR from 2014-2022&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>Scientific coordinator of LIAMA, 2011-2012&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>In charge of of the "image analysis platform" of the Armorican Research Center in ENvironment (CAREN, 2006-2009)&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>In charge of of the methodological axis of the Research Group MSG-ATR: Real Time Acquisition of Meteosat Second Generation data (2005-2009)&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>Elected member of Social Sciences dpt's council, Univ. Rennes 2 (2013-2019) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Chair (over past years)&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>General Chair of &lt;a href="http://jurse2019.org/" target="_blank" &gt; Joint Urban Remote Sensing Event, JURSE 2019 &lt;/a&gt; with<span class="Apple-converted-space">  </span>&lt;a href="http://people.irisa.fr/Sebastien.Lefevre/" target="_blank" &gt; Sébastien Lefèvre &lt;/a&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; Co-Chair of MACLEAN Workshop during European Conference on Machine Learning / Principles and Practice of Knowledge Discovery in Databases in <span class="Apple-converted-space">  </span>&lt;a href="https://mdl4eo.irstea.fr/maclean-machine-learning-for-earth-observation/" target="_blank" &gt; 2019&lt;/a&gt;, <span class="Apple-converted-space">  </span>&lt;a href="https://ecmlpkdd2020.net/programme/workshops/" target="_blank"&gt;<span class="Apple-converted-space">  </span>2020&lt;/a&gt;, &lt;a href="https://2021.ecmlpkdd.org/" target="_blank"&gt;<span class="Apple-converted-space">  </span>2021&lt;/a&gt; and &lt;a href="https://sites.google.com/view/maclean22" target="_blank"&gt;<span class="Apple-converted-space">  </span>2022&lt;/a&gt;<span class="Apple-converted-space">  </span>with<span class="Apple-converted-space">  </span>Dino Ienco, Roberto Interdonato, Sebastien Lefèvre and Minh-Tan Pham<span class="Apple-converted-space">  </span>&lt;/a&gt; &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>Chair of <span class="Apple-converted-space">  </span>&lt;a href="https://temu2020.sciencesconf.org/" target="_blank" &gt; TEMU 2020&lt;/a&gt; <span class="Apple-converted-space">  </span>with Jean Nabucet</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; Co-Chair of <span class="Apple-converted-space">  </span>8<span class="Apple-converted-space">  </span>MACLEAN research workshops <span class="Apple-converted-space">  </span>with Dino Ienco, Roberto Interdonato, Sebastien Lefèvre and Minh-Tan Pham and<span class="Apple-converted-space">  </span>Sébastien Lefèvre</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; Chair of <span class="Apple-converted-space">  </span>6 national research days in the conect of &lt;a href="https://osur.univ-rennes1.fr/" target="_blank" &gt; OSUR&lt;/a&gt; (time series, UAV for environment monitoring, LiDAR, ...)</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Edition&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>Associate Editor of <span class="Apple-converted-space">  </span>&lt;a href="https://www.mdpi.com/journal/remotesensing" target="_blank" &gt;Remote Sensing<span class="Apple-converted-space">  </span>&lt;/a&gt; Journal &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>Associate Editor of &lt;a href="https://www.mdpi.com/journal/earth" target="_blank" &gt;Earth&lt;/a&gt; Journal&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>Associate Editor of &lt;a href="https://www.sfpt.fr/2021/04/rfpt-223/" target="_blank" &gt;Revue Française de Photogrammétrie et Télédétection&lt;/a&gt;, national journal&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>In charge of &lt;a href="https://www.mdpi.com/journal/remotesensing/special_issues/pasture_management" target="_blank" &gt;Remote Sensing Special Issue <span class="Apple-converted-space">  </span>Advances of Remote Sensing in Pasture Management&lt;/a&gt; with Pauline Dusseux and Laurence Hubert-Moy<span class="Apple-converted-space">  </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>In charge of &lt;a href="http://www.grss-ieee.org/wp-content/uploads/2019/08/Call_for_Paper_JURSE2019.pdf" target="_blank" &gt;IEEE JSTARS Special Issue <span class="Apple-converted-space">  </span>Paving the way for the future of Urban Remote Sensing&lt;/a&gt; with Sebastien Lefevre, Monika Kuffer, Hannes Taubenbock, Clement Mallet &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>In charge of &lt;a href="https://www.springer.com/journal/10994" target="_blank" &gt;Machine Learning (springer) Special Issue <span class="Apple-converted-space">  </span>Machine Learning for Earth Observation Data&lt;/a&gt; with Dino Ienco, Roberto Interdonato, Sebastien Lefevre, Minh-Tan Pham&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>In charge of &lt;a href="https://www.mdpi.com/journal/remotesensing/special_issues/ML_HSRS" target="_blank" &gt;Remote Sensing Special Issue <span class="Apple-converted-space">  </span>Machine Learning and Pattern Analysis in Hyperspectral Remote Sensing&lt;/a&gt; with Xavier Briottet<span class="Apple-converted-space">  </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Reviews &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Journal &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt; <span class="Apple-converted-space">  </span>Regular reviewer in many international journals as IEEE Transactions on Image Processing,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>IEEE Signal Processing Magazine,<span class="Apple-converted-space">  </span>Journal of Photogrammetry and Remote Sensing,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE Transactions on Geosciences and Remote Sensing,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Tellus Series A: Dynamic Meteorology and Oceanography,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>American Institute of Aeronautics and Astronotics,<span class="Apple-converted-space">  </span>Image and Video Computing, International Journal of Mathematical Imaging and Vision,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>IEEE Transactions on Signal Processing, Experiments in Fluids, Electronic Letters on Computer Vision and Image Analysis,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>Measurement Science and Technology, Optical Engineering, Cahos, ...&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Conferences &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt; <span class="Apple-converted-space">  </span>Regular reviewer or PC member in many international/national conferences as<span class="Apple-converted-space">  </span>ISPRS Congress,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>ISA, SSVM, FedCSIS, ISA, IEEE International Conference on Computer Vision, IEEE International Conference on Computer Vision and Pattern Recognition CVPR,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>IEEE International Conference on Robotics and Automation, IEEE International Geosciences and Remote Sensing Symposium IGARSS,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>IEEE International Conference on Image Processing, Asian Conference on Computer Vision, RFIAP, CAP, ORASIS, ...</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Projects&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Current &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="http://english.aircas.cn/education/PIFI/" target="_blank" &gt; France-China PIFI&lt;/a&gt;&lt;/strong&gt;, Chinese Academy of Sciences President’s International Fellowship Initiative (PI)<span class="Apple-converted-space">  </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="https://people.irisa.fr/Nicolas.Courty/project/dynalearn/" target="_blank" &gt; Dynalearn (Cominlabs) &lt;/a&gt;&lt;/strong&gt;, interactions between deep learning and physical models&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="https://anr-hiatus.github.io/" target="_blank" &gt; ANR HIATUS&lt;/a&gt;&lt;/strong&gt;, Historical Image Analysis for Territory evolUtion Stories<span class="Apple-converted-space">  </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="https://people.irisa.fr/Laetitia.Chapel/multiscale/" target="_blank" &gt; ANR MULTISCALE&lt;/a&gt;&lt;/strong&gt;, MULTI-variate, -temporal, -resolution and -SourCe remote sensing image Analysis and LEarning, France and Turkey&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="http://sixp.inria.fr/" target="_blank" &gt; ANR 6P&lt;/a&gt;&lt;/strong&gt;, Interactions Plantes-Plantes Positives et Patrons spatiaux dans les résidus Post-mines Pyrénéens &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="https://anr.fr/Projet-ANR-20-CE03-0004" target="_blank" &gt; ANR PALMEXPAND&lt;/a&gt;&lt;/strong&gt;, Effets socioéconomiques et environnementaux de l'expansion des plantations de palmiers à huile en Indonésie &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Some past projects &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="http://www.issibj.ac.cn/program/it/" target="_blank" &gt;International Space Science Institute - Beijing&lt;/a&gt;&lt;/strong&gt; Remote sensing image data assimilation for pollution monitoring: application to urban and ocean pollution. 12 countries involved (PI)&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;France-China Deep-EO&lt;/strong&gt;, Chinese Academy of Sciences<span class="Apple-converted-space">  </span>- CNRS, Deep Learning for processing of earth observation data : application to local climate monitoring, 2017-2020 (PI) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;France-China Urba-Pol&lt;/strong&gt;, Chinese Academy of Sciences - CNRS, Assimilation of multimodal observations for urban pollution forecasting and understanding,<span class="Apple-converted-space">  </span>2013-2016 (PI) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;France-China TIPE&lt;/strong&gt;, Turbulence, Image, Physique, Environnement, LIAMA project,<span class="Apple-converted-space">  </span>2011-2014 (PI) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;France-China CARIOCA&lt;/strong&gt;, Climate and Land Cover Analysis with complex data, 2014-2020 (PI) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;CNES TOSCA VEGIDAR&lt;/strong&gt;,<span class="Apple-converted-space">  </span>Analyse de la Végétation en Ville par couplage LIDAR et PLEIADES, 2014-2017 (PI) &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;CNES TOSCA ARTIFICIALISATION&lt;/strong&gt;,<span class="Apple-converted-space">  </span>Suivi de l’artificialisation des sols par télédétection, soutien au CES (Centre d’Expertise Scientifique du pôle THEIA), 2015-2017 &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022; <span class="Apple-converted-space">  </span>&lt;strong&gt;&lt;a href="http://www-obelix.irisa.fr/asterix/" target="_blank" &gt; ANR ASTERIX&lt;/a&gt;&lt;/strong&gt;, Analyse Spatio-temporelle pour la Télédétection de l’Environnement par Reconnaissance dans les Images compleXes, 2014-2017&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body cc-experience-header"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;Students &amp; Post-docs&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;td style="vertical-align: top; text-align: right;"&gt;&lt;/td&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; PhD students &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Hiba Hamdi&lt;/strong&gt;<span class="Apple-converted-space">  </span>(PhD CIFRE kermap, co-supervised with Laure Roupioz and Xavier Briottet,<span class="Apple-converted-space">  </span>started in may 2021). Urban climate &amp; neural networks&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Mathilde Letard&lt;/strong&gt; (PhD, co-supervised with<span class="Apple-converted-space">  </span>Dimitri Lague, defended in Dec. 2023). LiDAR data analysis&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Iris de Gelis&lt;/strong&gt; (PhD, co-supervised with Sebastien Lefevre, started in january 2020). Change detection in 3D point clouds&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Emilien Alvarez-Vanhard&lt;/strong&gt; (PhD, co-supervised with Thomas Houet, defended in 2021). UAV and satellite synergies. Now in post-doc with &lt;a href="https://wwz.ifremer.fr/en" target="_blank"&gt; IFREMER &lt;/a&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Florent Guiotte&lt;/strong&gt; (PhD, co-supervised with Sebastien Lefevre, defended in<span class="Apple-converted-space">  </span>2021). Morphological analysis of 3D point clouds. Now research engineer in &lt;a href="https://lavionjaune.com/en/home/" target="_blank" &gt; L'avion Jaune &lt;/a&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Sina Nakhostin&lt;/strong&gt; (PhD, co-supervised with Nicolas Courty, defended in<span class="Apple-converted-space">  </span>2017). Hyperspectral unmixing. Now a post-doc with CNES &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Zheng Zhang&lt;/strong&gt; (PhD, co-supervised with Tang Ping, defended in<span class="Apple-converted-space">  </span>2016). Time series analysis. Now has an academic position in Chinese Academy of Sciences&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Chen Xu&lt;/strong&gt; (PhD, Ecole Centrale -Beijing, Lyon, defended in<span class="Apple-converted-space">  </span>2015). 3D turbulence analysis. Now has an academic position in Beihang University, Beijing, China &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Gong Xing&lt;/strong&gt; (Phd,<span class="Apple-converted-space">  </span>defended in<span class="Apple-converted-space">  </span>2015). Assimilation of remote sensing data in plant growth models. Now works in a company in China.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Pascal Zille&lt;/strong&gt; (Phd, defended in<span class="Apple-converted-space">  </span>2014). Fluid flow analysis in images. Now is a data scientist in &lt;a href="https://incepto-medical.com/en" target="_blank" &gt; Incepto Medical &lt;/a&gt;<span class="Apple-converted-space">  </span>&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Pauline Dusseux&lt;/strong&gt; (PhD, co-supervised with Laurence Hubert-Moy, COSTEL, Rennes, defended in Dec. 2014). Time series analysis for grassland monitoring. Now associate professor in Grenoble University&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Pierre Allain&lt;/strong&gt; (PhD, co-supervised with Nicolas Courty, defended 2012, VALORIA, Vannes).<span class="Apple-converted-space">  </span>Now is a data scientist in &lt;a href="https://www.wipsea.com/" target="_blank" &gt; wipsea &lt;/a&gt; &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Antoine Lefebvre&lt;/strong&gt; (PhD, co-supervised with Laurence Hubert-Moy, COSTEL, Rennes, defended in<span class="Apple-converted-space">  </span>2011). Creator and CEO of &lt;a href="https://www.kermap.com/" target="_blank" &gt; kermap &lt;/a&gt; &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h5"&gt; Post-docs (at the moment) &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Diego Di Carlo&lt;/strong&gt; with &lt;a href="https://people.irisa.fr/Nicolas.Courty/project/dynalearn/" target="_blank" &gt; Dynalearn &lt;/a&gt; project&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;p&gt;&amp;#x2022;<span class="Apple-converted-space">  </span>&lt;strong&gt; Guglielmo Fernandez-Garcia&lt;/strong&gt; with &lt;a href="https://anr-hiatus.github.io/" target="_blank" &gt; ANR HIATUS&lt;/a&gt; project&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;div class="section" id="resume"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container cc-experience"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="h4 text-center mb-4 title"&gt;Resume&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="h6 mb-6 title"&gt;Background&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2011<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://tel.archives-ouvertes.fr/tel-00616558/"<span class="Apple-converted-space">  </span>target="_blank" &gt;PhD Habilitation&lt;/a&gt;, Univ. Rennes 1, Signal processing &amp; Computer Vision&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2002 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://tel.archives-ouvertes.fr/tel-00005351"<span class="Apple-converted-space">  </span>target="_blank" &gt;PhD&lt;/a&gt;, Univ. Rennes 1, Signal processing &amp; Computer Vision&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 1999 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://formations.univ-rennes1.fr/master-2-signal-image-systemes-automatique"<span class="Apple-converted-space">  </span>target="_blank" &gt; Master of Science&lt;/a&gt;,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>MS, Signal, télécommunications, images, radar, Rennes I University&lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">     </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">     </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 1999 :&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://www.insa-rennes.fr/graduate-school-of-engineering.html"<span class="Apple-converted-space">  </span>target="_blank" &gt; INSA Rennes engineer diploma&lt;/a&gt;,</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">       </span>National Institute of Science and Technology, Electrical Engineering &lt;br&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1">&lt;div class="h6 mb-6 title"&gt;Labs &amp; positions&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2012 -- present<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="col-sm-9"&gt;&lt;a href="https://letg.cnrs.fr/"<span class="Apple-converted-space">  </span>target="_blank" &gt;LETG-Rennes&lt;/a&gt;, CNRS Director of Research, Rennes, France&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2013 -- present<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-9"&gt;Association with &lt;a href="http://www-obelix.irisa.fr/"<span class="Apple-converted-space">  </span>target="_blank" &gt;OBELIX team&lt;/a&gt;, IRISA, Vannes, France&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2009 -- 2012<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-9"&gt; &lt;a href="https://cnrsbeijing.cnrs.fr/project/liama/"<span class="Apple-converted-space">  </span>target="_blank" &gt;LIAMA&lt;/a&gt;, Sino-Frech lab in computer sciences and applied mathematics, Beijing, China as CNRS researcher &lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2004 -- 2009<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-9"&gt;&lt;a href="https://letg.cnrs.fr/"<span class="Apple-converted-space">  </span>target="_blank" &gt;LETG-Rennes&lt;/a&gt;, CNRS<span class="Apple-converted-space">  </span>Researcher, Rennes, France&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2006 -- 2009<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-9"&gt;Association with &lt;a href="https://www.irisa.fr/fluminance/indexFluminance.html"<span class="Apple-converted-space">  </span>target="_blank" &gt;FLUMINANCE team&lt;/a&gt;, INRIA, Rennes,<span class="Apple-converted-space">  </span>France&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2003 -- 2004<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-9"&gt;Post doc with<span class="Apple-converted-space">  </span>&lt;a href="https://www.inrae.fr/en"<span class="Apple-converted-space">  </span>target="_blank" &gt;INRAE&lt;/a&gt;&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-2"&gt;&lt;strong&gt;&amp;#x2022; 2002 -- 2003<span class="Apple-converted-space">  </span>:&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="col-sm-9"&gt;Assistant professor with &lt;a href="https://www.univ-rennes1.fr/en"<span class="Apple-converted-space">  </span>target="_blank" &gt;University Rennes I&lt;/a&gt;, Rennes, France&lt;br&gt; &lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space"> </span>&lt;!-- &lt;div class="section" id="reference"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="container cc-reference"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="h4 mb-4 text-center title"&gt;References&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card" data-aos="zoom-in"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="carousel slide" id="cc-Indicators" data-ride="carousel"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;ol class="carousel-indicators"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;li class="active" data-target="#cc-Indicators" data-slide-to="0"&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;li data-target="#cc-Indicators" data-slide-to="1"&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;li data-target="#cc-Indicators" data-slide-to="2"&gt;&lt;/li&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/ol&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="carousel-inner"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="carousel-item active"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-lg-2 col-md-3 cc-reference-header"&gt;&lt;img src="images/reference-image-1.jpg" alt="Image"/&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="h5 pt-2"&gt;Aiyana&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="category"&gt;CEO / WEBM&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-lg-10 col-md-9"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt; Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="carousel-item"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-lg-2 col-md-3 cc-reference-header"&gt;&lt;img src="images/reference-image-2.jpg" alt="Image"/&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="h5 pt-2"&gt;Braiden&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="category"&gt;CEO / Creativem&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-lg-10 col-md-9"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt; Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="carousel-item"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-lg-2 col-md-3 cc-reference-header"&gt;&lt;img src="images/reference-image-3.jpg" alt="Image"/&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="h5 pt-2"&gt;Alexander&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p class="category"&gt;CEO / Webnote&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="col-lg-10 col-md-9"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;p&gt; Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">--&gt;</span></p>
-<p class="p1"><span class="s1">&lt;div class="section" id="contact"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="cc-contact-information"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="container"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="cc-contact"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="col-md-9"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="card mb-0" data-aos="zoom-in"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="h4 text-center title"&gt;Contact Me&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="col-md-6"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;form action="https://formspree.io/f/xrgjwlwq" method="POST"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;div class="p pb-3"&gt;&lt;strong&gt;To send me an email : see my addresses or fill the fields below&lt;/strong&gt;&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;div class="row mb-3"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="col"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;div class="input-group"&gt;&lt;span class="input-group-addon"&gt;&lt;i class="fa fa-user-circle"&gt;&lt;/i&gt;&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;input class="form-control" type="text" name="name" placeholder="Name" required="required"/&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;div class="row mb-3"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="col"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;div class="input-group"&gt;&lt;span class="input-group-addon"&gt;&lt;i class="fa fa-file-text"&gt;&lt;/i&gt;&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;div class="row mb-3"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="col"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;div class="input-group"&gt;&lt;span class="input-group-addon"&gt;&lt;i class="fa fa-envelope"&gt;&lt;/i&gt;&lt;/span&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;div class="row mb-3"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="col"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;div class="form-group"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                            </span>&lt;textarea class="form-control" name="message" placeholder="Your Message" required="required"&gt;&lt;/textarea&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;div class="row"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;div class="col"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                          </span>&lt;button class="btn btn-primary" type="submit"&gt;Send&lt;/button&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;/form&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;div class="col-md-6"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;div class="card-body"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-0"&gt;&lt;strong&gt;Address &lt;/strong&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p class="pb-2"&gt;UMR 6554 LETG, Bâtiment N, Place<span class="Apple-converted-space">  </span>du Recteur Henri Le Moal, 35043 RENNES CEDEX, FRANCE&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-0"&gt;&lt;strong&gt;Phone&lt;/strong&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p class="pb-2"&gt;+33 2 99 14 18 77&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p class="mb-0"&gt;&lt;strong&gt;Email&lt;/strong&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;thomas.corpetti @ univ-rennes2.fr&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                    </span>&lt;p&gt;thomas.corpetti @ cnrs.fr&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">              </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="h4 text-center title"&gt;Venue&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2338.9178225745914!2d-1.7035432785412594!3d48.11924737129297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ee171fa0a4ec1%3A0xd794913a5328d07b!2sB%C3%A2timent%20N!5e0!3m2!1sfr!2sfr!4v1657293173153!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"&gt;&lt;/iframe&gt;<span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/div&gt;&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;footer class="footer"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="h4 title text-center"&gt;Thomas Corpetti&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="text-center text-muted"&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">        </span>&lt;p&gt;&amp;copy; Creative CV. All rights reserved.&lt;br&gt;Design - &lt;a class="credit" href="https://templateflip.com" target="_blank"&gt;TemplateFlip&lt;/a&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="js/core/popper.min.js?ver=1.1.0"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="js/core/bootstrap.min.js?ver=1.1.0"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="js/now-ui-kit.js?ver=1.1.0"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="js/aos.js?ver=1.1.0"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span>&lt;script src="scripts/main.js?ver=1.1.0"&gt;&lt;/script&gt;</span></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/body&gt;</span></p>
-<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
-</body>
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home page Thomas Corpetti</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link rel="stylesheet" href="./academicons-1.9.2/css/academicons.min.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Home </a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#research">Research</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#publications">Publications</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#courses">Courses</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#academic">Academic</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#resume">Resume</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="red">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/slider1.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><img src="images/tc.jpg" alt="Image"/></div>
+          <div class="h2 title">Thomas Corpetti</div>
+          <p class="category text-white">CNRS senior researcher, earth observation & environment</p>
+          <!-- <a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>-->
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/Thomascorpt"  target="_blank"  rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a>
+            <a  class="btn btn-default btn-round btn-lg btn-icon"  href="https://scholar.google.fr/citations?user=xry_FQYAAAAJ&hl=fr"   target="_blank"  rel="tooltip" title="Follow me on Google Scholar"><p></p><i class="ai ai-google-scholar ai-2x"></i></a>
+            <a class="btn btn-default btn-round btn-lg btn-icon" href="https://fr.linkedin.com/in/thomas-corpetti-68468313a"   target="_blank"  rel="tooltip" title="Follow me on Linkedin"><i class="fa fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+<!--       <div class="row">
+        <div class="col-lg-6 col-md-12">-->
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p>My main research focuses on the development of methodological approaches for the analysis of Earth observations (images, local sensors, time series, etc.). The applications are primarily related to environmental topics such as pollution, climatology, and agriculture.</p>
+            <p> I joined <a
+              href="http://letg.cnrs.fr/" target="_blank" >
+              LETG-Rennes  </a> and <a
+              href="http://osur.univ-rennes1.fr/" target="_blank" >
+              OSUR </a> in 2004.  Between 2009 and 2012, I was based in Beijing, China, where I worked for <a title="http://liama.ia.ac.cn/"
+             href="http://liama.ia.ac.cn/" target="_blank" >LIAMA</a> (Laboratory of Informatics, Automatics, and Applied Mathematics), a joint lab comprising Chinese institutions: <a title="http://english.ia.cas.cn/"
+                           href="http://english.ia.cas.cn/" target="_blank" >CASIA</a> (Chinese Academy of Sciences, Institute of Automation), <a
+                             title="https://www.tsinghua.edu.cn/en/"
+                           href="https://www.tsinghua.edu.cn/en/" target="_blank" >Tsinghua University</a>, and European organizations (<a title="http://www.inria.fr/en/"
+                             href="http://www.inria.fr/en/" target="_blank" >INRIA</a>, <a
+                             title="http://www.cnrs.fr/en/"
+                             href="http://www.cnrs.fr/en/" target="_blank" >CNRS</a>, <a
+                             title="http://www.inrae.fr/en/"
+                             href="http://www.inrae.fr/en/" target="_blank" >INRAE</a>, <a
+                             title="https://www.cirad.fr/en/"
+                             href="https://www.cirad.fr/en/" target="_blank" >CIRAD</a>,
+                           <a
+                             title="http://www.groupe-ecoles-centrales.fr/"
+                             href="http://www.groupe-ecoles-centrales.fr/" target="_blank" >Groupe
+
+                             des Ecoles Centrales</a>).</p>
+            <p> Since October 2012, I have been back in France as a CNRS Director of Research with LETG. I lead projects in collaboration with both French and international research groups.
+
+            </p>
+  <!--         </div>
+            </div>-->
+        <!-- <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">thomas.corpetti @ cnrs.fr,      or </div>
+              <div class="col-sm-4"></div>
+              <div class="col-sm-8">thomas.corpetti @ univ-rennes2.fr</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8">+33 2 99 14 18 77</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">UMR 6554 LETG, Bâtiment N, Place  du Recteur Henri Le Moal, 35043 RENNES CEDEX, FRANCE</div>
+            </div>
+          </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+
+<div class="card-body">
+  <div class="h4 mt-0 title">Code</div>
+  <p>I develop and maintain <a href="https://rastereasy.github.io/" target="_blank" > rastereasy </a>, a free and open-source Python library that makes it easy to work with georeferenced raster data.
+  </div>
+</div>
+
+<div class="section" id="research">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Ongoing research topics</div>
+
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Vegetation & Remote Sensing</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px; " alt="" src="images/monitree.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Analysis of urban vegetation </div>
+            <p> In the context of global change, urban areas face increasing challenges from extreme climate events. Trees play a crucial role in mitigating these impacts, but they must survive harsh environmental conditions. Our research aims to use physiological data, remote sensing, and machine learning to monitor tree health and develop management tools for urban resilience.</p>
+            <p> With  Jean Nabucet, Cécile Sulmon-Maisonneuve, Gwenael Gouesbet, Nathalie Le Bris, Marion Chorin, Thierry Fontaine-Breton, Rémi Bodiguel, E. Le Rouzic, Karine Adeline, Laure Roupioz, Elise Collin, Etienne Everaere, Didier Le Thiec, Simon Berville, Dorine Desalme, Cyril Buré, Charlotte Pelletier, Sabine El Moualy, Xavier Le Bris.
+</p>
+            <p> cf <a href="https://moni-tree.github.io/" target="_blank" > ANR MONI-TREE (2024-2028)</a> website
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Urban ecology</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px;" alt="" src="images/bio3Diversity.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> 3D Landscape and Biodiversity</div>
+            <p>Use 3D LiDAR data to characterize urban landscapes, model functional connectivity, and identify ecologically functional greenways.
+              By combining biodiversity data and LiDAR data, we seek to improve our understanding of how urban green infrastructure can support biodiversity and ecosystem services. </p>
+            <p>With Hei-Taïna Marais, Solène Croci, Paul Leroy, Dimitri Lague</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Urban environments</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px;" alt="" src="images/pollution.jpg"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Urban pollution and urban heat islands</div>
+            <p>Coupling remote senging images, onsite and simulated measurments and machine learning to understand and predict the evolution of urban pollution and heat islands. </p>
+            <p>With Hiba Hamdi, Laure Roupioz, Xavier Briottet, Jean Nabucet, Saho Liang, Stephanie Tumampos, Antoine Lefebvre</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Water turbidity</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px; " alt="" src="images/bathy.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Interpretation of LiDAR bathymetric waveforms for water quality analysis</div>
+            <p>A bathymetric LiDAR is a remote sensing method that uses laser pulses to measure water depths. The resulting backscattered waveform contains valuable information related to turbidity, depth, and other parameters. Extracting these parameters from raw waveforms is a challenge, and we explore this aspect by combining physical models and machine learning.</p>
+            <p> With Mathilde Letard & Dimitri Lague</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Health & Remote Sensing</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px; " alt="" src="images/health2.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Assessing the health impacts of agricultural practices using remote sensing</div>
+            <p>Assessing health risks associated with living near agricultural areas, particularly livestock farms. By leveraging Sentinel satellite data, we  develop methods
+              to identify agricultural practices, such as livestock buildings and fertilization areas, to better understand their impact on air quality and human health.
+              </p>
+            <p> With Candide Lissak, Cécile Chevrier, Tarik Benmarhnia, Noemie Letellier, Nicolas Baghdadi, Sebastien Lefevre, Francois Merciol, Charlotte Pelletier</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Landslides</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px; " alt="" src="images/landslides.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Landslide analysis and open dataset</div>
+            <p>Neural network architectures for landslide detection using optical images and DEMs.
+              Pre-training models on existing datasets and fine-tuning them with few new landslides data on new areas</p>
+              <p> Check out our open <a title="Hokkaido"
+             href="https://github.com/karstCand/HokkaidoLandslide_dataset/" target="_blank" >  Hokkaido dataset in Japan </a> </p>
+            <p>With Candide Lissak.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Super-resolution</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px; " alt="" src="images/sr.jpg"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Super-resolution of SENTINEL-2 or physical data</div>
+            <p>Neural networks for improving the spatial resolution of SENTINEL-2 and physical data (temperature, turbulence, vegetation). </p>
+            <p>With  Aimi Okabayashi, Nicolas Courty, Charlotte Pelletier, Nicolas Audebert, Emilien Alvarez-Vanhard, Diego Di Carlo, Guglielmo Fernandez-Garcia, Charlotte Pelletier, Aurélie Michel, Carlos Granero-Belinchon, Antoine Lefebvre, Thomas Houet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Machine Learning</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px; " alt="" src="images/ml.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Links between Machine Learning & Physics </div>
+            <p> Analysis of links between Machine Learning, Physical Processes and Optimal transport.</p>
+            <p> With Diego di Carlo, Nicolas Courty, Dominique Heitz </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Point cloud analysis</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px; " alt="" src="images/lidar.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Classification & change detection on LiDAR data</div>
+            <p>Efficient processing and representation of 3D point clouds ; 3D change detection</p>
+            <p>Simulation of urban point clouds for machine learning</p>
+            <p>With Mathilde Letard, Iris de Gelis, Florent Guiotte,  Sébastien Lefèvre, Dimitri Lague, Antoine Collin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Waveforms and time series</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px;" alt="" src="images/hiatus.png"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Analysis of remote sensing time series and/or LiDAR waveforms</div>
+            <p>Semantic classification, structure identification, classification in waveforms</p>
+            <p>Comparison of time series, gap filling, analysis of historical data (change detection), transfer learning</p>
+            <p>With Mathilde Letard,  Guglielmo Fernandez-Garcia, Dimitri Lague, Charlotte Pelletier, 	Ping Tang, Zheng Zhang, Antoine Lefebvre, Arnaud Le Bris,  Antoine Collin</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Remote Sensing</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px;" alt="" src="images/beijing.gif"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Data fusion, multiscale analysis, vegetation analysis</div>
+            <p>Different projects related to remote sensing in general (data fuion, links with ontologies, vegetation and agriculture monitoring, ...). </p>
+            <p>With Carl Bethuel, Damien Arvor, Samuel Corgne, Jean Nabucet, Laurence Hubert-Moy, ...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Kermap</p>
+            <td style="vertical-align: top; text-align: right;"><img style="border: 2px solid ; width: 200px;" alt="" src="images/kermap.jpg"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Consulting with SME <a
+              href="http://www.kermap.com/" target="_blank" > kermap </a> in the context of CNRS concours scientifique</div>
+            <p>Different projects related to <a
+              href="http://nimbo.earth/" target="_blank" > NIMBO </a> plateform (data colorization, classification, gap-filling, super-resolution, ...). </p>
+            <p>With Thomas Cusson, Maxime Knibbe, Nicolas Ekicier, Nicolas Beaugendre, Antoine Lefebvre.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="publications">
+  <div class="container">
+    <div class="card">
+      <div class="col-md-11 ml-auto mr-auto" data-aos-offset="5" >
+        <div class="h4 text-center mb-4 title">Publications</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+          See my    &nbsp; <a href="https://scholar.google.fr/citations?user=xry_FQYAAAAJ&hl=fr"  target="_blank" > Google scholar profile</a>. Below is a list automatically extracted from
+ <a href="https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Thomas,Corpetti;T.,Corpetti&labos_exp=LETG;CNRS;IRISA;LIAMA;'CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff" target="_blank" >HAL</a>  &nbsp; (more or less up to date)
+<object style="width:100%;height:600px;" type="text/html" data="https://haltools.inria.fr/Public/afficheRequetePubli.php?auteur_exp=Thomas,Corpetti;T.,Corpetti&labos_exp=LETG;CNRS;IRISA;LIAMA;'CB_auteur=oui&CB_titre=oui&CB_article=oui&langue=Anglais&tri_exp=annee_publi&tri_exp2=typdoc&tri_exp3=date_publi&ordre_aff=TA&Fen=Aff">HAL</a> </object>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+<div class="section" id="courses">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Courses</div>
+    <div class="card-body">
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2020 -- present :</strong></div>
+      <div class="col-sm-9"><a href="https://www.master-cde.eu/"  target="_blank" > Europeanmaster COPERNICUS in digital earth </a>: Machine learning and physics<br> </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2019 -- present :</strong></div>
+      <div class="col-sm-9"><a href="https://uniform.unicaen.fr/catalogue/formation/master/7032-master-geo.--amenagement--envt.-et-developpement-p.-environnement--risques-et-diagnostics-territoriaux?s=&r="  target="_blank" >Geography master,  Univ. Caen</a>, Image processing
+        <br></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2019 -- present :</strong></div>
+    <div class="col-sm-9"><a href="https://esir.univ-rennes1.fr/en/"  target="_blank" > ESIR</a>,
+       Image indexation & Machine Learning, Univ. Rennes I <br></div>
+     </div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2012 -- present :</strong></div>
+    <div class="col-sm-9"><a href="https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-geographie-amenagement-environnement-et-developpement-JFJQQA25/parcours-teledetection-environnement-JFJQS6IB.html"  target="_blank" >
+      TELENVI Master, Univ. Rennes II and Agrocampus</a>,  Image processing (ArcGis 10 / Python) & initiation to Machine Learning, Univ. Rennes II
+  <br></div>
+  </div>
+
+  <div class="row">
+      <div class="col-sm-2"><strong>&#x2022; 2014 -- 2016 :</strong></div>
+        <div class="col-sm-9"><a href="http://international.ens-rennes.fr/ens-rennes-english-version-253208.kjsp?RH=KERLANN_FR"  target="_blank" >  ENS Rennes
+        </a>,  Machine Learning<br></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2009 -- 2017 :</strong></div>
+    <div class="col-sm-9"><a href="http://ecpknfr.buaa.edu.cn/"  target="_blank" > Ecole Centrale Beijing</a>,  Partial Differential Equations for image processing<br></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2009 -- 2012 :</strong></div>
+    <div class="col-sm-9"><a href="http://en.njtu.edu.cn/"  target="_blank" >
+      Beijing Jiaotong University</a>,  Image processing for remote sensing<br></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2004 -- 2009 :</strong></div>
+    <div class="col-sm-9"><a href="https://www.univ-rennes1.fr/en"  target="_blank" >  Univ. Rennes I</a>,  Partial Differential Equations for Image Processing
+      <br></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2004 -- 2009 :</strong></div>
+    <div class="col-sm-9"><a href="https://formations.univ-rennes2.fr/fr/formations/master-37/master-mention-geographie-amenagement-environnement-et-developpement-JFJQQA25/parcours-teledetection-environnement-JFJQS6IB.html"  target="_blank" >  Univ. Rennes II, TELENVI Master</a>,  Introduction to Image Processing
+      <br></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; Before 2004 </strong></div>
+    <div class="col-sm-9">Approx. 400 h in computer sciences and signal processing
+      <br></div>
+  </div>
+</div>
+
+<div class="section" id="academic">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Academic Activities (over past 5 years)</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000">
+          <div class="card-body cc-experience-header">
+            <p>Administrative responsabilities</p>
+            <td style="vertical-align: top; text-align: right;"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Current </div>
+            <p>&#x2022;  In charge of <a href="https://letg.cnrs.fr/article600.html"  target="_blank" >LETG-Rennes </a> since 2023 </p>
+            <p>&#x2022;  Member of <a href="https://osur.univ-rennes.fr/en"  target="_blank" >OSUR </a>'s scientific council since 2023 </p>
+            <p>&#x2022;  Co-animation of <a href="http://www.madics.fr/actions/maclean/" target="_blank" > MACLEAN </a> (Machine learning for earth observation) action in GDR MADICS group since 2016 </p>
+            <p>&#x2022;  In charge of  <a href="https://www.cnrs.fr/en/cnrs-committed-promoting-sustainable-development"  target="_blank" > sustainable development  </a> of UMR 6554 LETG</p>
+            <p>&#x2022;  In charge of the <a href="http://liama.ia.ac.cn/research/liama-projects/259-tipe-project-description-and-achievements.html"  target="_blank" >  TIPE/CARIOCA  </a> research team since 2010</p>
+            <div class="h5"> Past (main ones) </div>
+            <p>&#x2022;  Elected member of the scientific council of Univ. Rennes II since (2015 - 2023) </p>
+            <p>&#x2022;  In charge of the LOVE plateform (numerical aspects for environment) of OSUR from 2014-2022</p>
+            <p>&#x2022;  Scientific coordinator of LIAMA, 2011-2012</p>
+            <p>&#x2022;  In charge of of the "image analysis platform" of the Armorican Research Center in ENvironment (CAREN, 2006-2009)</p>
+            <p>&#x2022;  In charge of of the methodological axis of the Research Group MSG-ATR: Real Time Acquisition of Meteosat Second Generation data (2005-2009)</p>
+            <p>&#x2022;  Elected member of Social Sciences dpt's council, Univ. Rennes 2 (2013-2019) </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000">
+          <div class="card-body cc-experience-header">
+            <p>Chair </p>
+            <td style="vertical-align: top; text-align: right;"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <p>&#x2022;   Chair of <a href="https://sfpt-gh2024.sciencesconf.org/" target="_blank" > 9ème colloque du Groupe Hyperspectral de la SFPT, 2024 </a> with  Jean Nabucet</p>
+            <p>&#x2022;  General Chair of <a href="http://jurse2019.org/" target="_blank" > Joint Urban Remote Sensing Event, JURSE 2019 </a> with  <a href="http://people.irisa.fr/Sebastien.Lefevre/" target="_blank" > Sébastien Lefèvre </a></p>
+            <p>&#x2022; Co-Chair of MACLEAN Workshop during European Conference on Machine Learning / Principles and Practice of Knowledge Discovery in Databases in   <a href="https://mdl4eo.irstea.fr/maclean-machine-learning-for-earth-observation/" target="_blank" > 2019</a>,   <a href="https://ecmlpkdd2020.net/programme/workshops/" target="_blank">  2020</a>, <a href="https://2021.ecmlpkdd.org/" target="_blank">  2021</a>,  <a href="https://sites.google.com/view/maclean22" target="_blank">  2022</a>,  <a href="https://sites.google.com/view/maclean23" target="_blank">  2023</a> and  <a href="https://sites.google.com/view/maclean24" target="_blank">  2024</a>  with  Dino Ienco, Roberto Interdonato, Sebastien Lefèvre and Minh-Tan Pham  </a> </p>
+            <p>&#x2022;   Chair of   <a href="https://temu2020.sciencesconf.org/" target="_blank" > TEMU 2020</a>   with Jean Nabucet
+            <p>&#x2022; Co-Chair of   8  MACLEAN research workshops   with Dino Ienco, Roberto Interdonato, Sebastien Lefèvre and Minh-Tan Pham and  Sébastien Lefèvre
+            <p>&#x2022; Chair of   6 national research days in the conect of <a href="https://osur.univ-rennes1.fr/" target="_blank" > OSUR</a> (time series, UAV for environment monitoring, LiDAR, ...)
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000">
+          <div class="card-body cc-experience-header">
+            <p>Edition</p>
+            <td style="vertical-align: top; text-align: right;"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <p>&#x2022;   Associate Editor of   <a href="https://www.mdpi.com/journal/remotesensing" target="_blank" >Remote Sensing  </a> Journal </p>
+            <p>&#x2022;   Associate Editor of <a href="https://www.mdpi.com/journal/earth" target="_blank" >Earth</a> Journal</p>
+            <p>&#x2022;   Associate Editor of <a href="https://www.sfpt.fr/2021/04/rfpt-223/" target="_blank" >Revue Française de Photogrammétrie et Télédétection</a>, national journal</p>
+            <p>&#x2022;   In charge of <a href="https://www.mdpi.com/journal/remotesensing/special_issues/pasture_management" target="_blank" >Remote Sensing Special Issue   Advances of Remote Sensing in Pasture Management</a> with Pauline Dusseux and Laurence Hubert-Moy  </p>
+            <p>&#x2022;   In charge of <a href="http://www.grss-ieee.org/wp-content/uploads/2019/08/Call_for_Paper_JURSE2019.pdf" target="_blank" >IEEE JSTARS Special Issue   Paving the way for the future of Urban Remote Sensing</a> with Sebastien Lefevre, Monika Kuffer, Hannes Taubenbock, Clement Mallet </p>
+            <p>&#x2022;   In charge of <a href="https://www.springer.com/journal/10994" target="_blank" >Machine Learning (springer) Special Issue   Machine Learning for Earth Observation Data</a> with Dino Ienco, Roberto Interdonato, Sebastien Lefevre, Minh-Tan Pham</p>
+            <p>&#x2022;   In charge of <a href="https://www.mdpi.com/journal/remotesensing/special_issues/ML_HSRS" target="_blank" >Remote Sensing Special Issue   Machine Learning and Pattern Analysis in Hyperspectral Remote Sensing</a> with Xavier Briottet  </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>Reviews </p>
+            <td style="vertical-align: top; text-align: right;"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Journal </div>
+            <p>   Regular reviewer in many international journals as IEEE Transactions on Image Processing,
+              IEEE Signal Processing Magazine,  Journal of Photogrammetry and Remote Sensing,
+              IEEE Transactions on Pattern Analysis and Machine Intelligence, IEEE Transactions on Geosciences and Remote Sensing,
+              IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, Tellus Series A: Dynamic Meteorology and Oceanography,
+              American Institute of Aeronautics and Astronotics,  Image and Video Computing, International Journal of Mathematical Imaging and Vision,
+              IEEE Transactions on Signal Processing, Experiments in Fluids, Electronic Letters on Computer Vision and Image Analysis,
+              Measurement Science and Technology, Optical Engineering, Cahos, ...</p>
+            <div class="h5"> Conferences </div>
+            <p>   Regular reviewer or PC member in many international/national conferences as  ISPRS Congress,
+              ISA, SSVM, FedCSIS, ISA, IEEE International Conference on Computer Vision, IEEE International Conference on Computer Vision and Pattern Recognition CVPR,
+              IEEE International Conference on Robotics and Automation, IEEE International Geosciences and Remote Sensing Symposium IGARSS,
+              IEEE International Conference on Image Processing, Asian Conference on Computer Vision, RFIAP, CAP, ORASIS, ...
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000">
+          <div class="card-body cc-experience-header">
+            <p>Projects</p>
+            <td style="vertical-align: top; text-align: right;"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> Current & Recent </div>
+            <p>&#x2022;   <strong><a href="https://moni-tree.github.io/" target="_blank" > ANR MONI-TREE (2024-2028)</a></strong>, MONItoring TREE comfort inside cities multiscale approach with multimodal remote sensing, physical modeling, deep learning and in-situ data  (PI)  </p>
+            <p>&#x2022;   <strong>TOSCA SR4VEG (2024-2026)</a></strong>, Super-resolution of SENTINEL-2 data for monitoring vegetation (PI)  </p>
+            <p>&#x2022;   <strong><a href="http://english.aircas.cn/education/PIFI/" target="_blank" > France-China PIFI (2020-2024)</a></strong>, Chinese Academy of Sciences President’s International Fellowship Initiative (PI)  </p>
+            <p>&#x2022;   <strong><a href="https://people.irisa.fr/Nicolas.Courty/project/dynalearn/" target="_blank" > Dynalearn (Cominlabs) (2020-2023)</a></strong>, interactions between deep learning and physical models</p>
+            <p>&#x2022;   <strong><a href="https://anr-hiatus.github.io/" target="_blank" > ANR HIATUS (2019-2024)</a></strong>, Historical Image Analysis for Territory evolUtion Stories  </p>
+            <p>&#x2022;   <strong><a href="https://people.irisa.fr/Laetitia.Chapel/multiscale/" target="_blank" > ANR MULTISCALE (2019-2023)</a></strong>, MULTI-variate, -temporal, -resolution and -SourCe remote sensing image Analysis and LEarning, France and Turkey</p>
+            <p>&#x2022;   <strong><a href="http://sixp.inria.fr/" target="_blank" > ANR 6P</a></strong>, Interactions Plantes-Plantes Positives et Patrons spatiaux dans les résidus Post-mines Pyrénéens (2021-2024)</p>
+            <p>&#x2022;   <strong><a href="https://anr.fr/Projet-ANR-20-CE03-0004" target="_blank" > ANR PALMEXPAND</a></strong>, Effets socioéconomiques et environnementaux de l'expansion des plantations de palmiers à huile en Indonésie </p>
+            <div class="h5"> Some past projects </div>
+            <p>&#x2022;   <strong>France-China Deep-EO</strong>, Chinese Academy of Sciences  - CNRS, Deep Learning for processing of earth observation data : application to local climate monitoring, 2017-2020 (PI) </p>
+            <p>&#x2022;   <strong>France-China Urba-Pol</strong>, Chinese Academy of Sciences - CNRS, Assimilation of multimodal observations for urban pollution forecasting and understanding,  2013-2016 (PI) </p>
+            <p>&#x2022;   <strong>France-China TIPE</strong>, Turbulence, Image, Physique, Environnement, LIAMA project,  2011-2014 (PI) </p>
+            <p>&#x2022;   <strong>France-China CARIOCA</strong>, Climate and Land Cover Analysis with complex data, 2014-2020 (PI) </p>
+            <p>&#x2022;   <strong>CNES TOSCA VEGIDAR</strong>,  Analyse de la Végétation en Ville par couplage LIDAR et PLEIADES, 2014-2017 (PI) </p>
+            <p>&#x2022;   <strong>CNES TOSCA ARTIFICIALISATION</strong>,  Suivi de l’artificialisation des sols par télédétection, soutien au CES (Centre d’Expertise Scientifique du pôle THEIA), 2015-2017 </p>
+            <p>&#x2022;   <strong><a href="http://www-obelix.irisa.fr/asterix/" target="_blank" > ANR ASTERIX</a></strong>, Analyse Spatio-temporelle pour la Télédétection de l’Environnement par Reconnaissance dans les Images compleXes, 2014-2017</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="5" data-aos-duration="5000">
+          <div class="card-body cc-experience-header">
+            <p>Students & Post-docs</p>
+            <td style="vertical-align: top; text-align: right;"></td>
+            <div class="h5"></div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5"> PhD students </div>
+            <p>&#x2022;  <strong> Augustin De La Brosse</strong>, co-supervised with Thomas Houet,  started in may 2024. Multispectral and LiDAR for monitoring ecological systems</p>
+            <p>&#x2022;  <strong> Hei-Taïna Marais</strong>, co-supervised with Solène Croci,  started in november 2024. LiDAR for biodiversity understanding in cities</p>
+            <p>&#x2022;  <strong>  Aimi Okabayashi</strong>, co-supervised with Nicolas Courty, Charlotte Pelletier, Nicolas Audebert,  started in may 2024. Super-resolution with focus on vegetation</p>
+            <p>&#x2022;  <strong> Hiba Hamdi</strong>  (PhD CIFRE kermap, co-supervised with Laure Roupioz and Xavier Briottet,  started in may 2021). Urban climate & neural networks</p>
+            <p>&#x2022;  <strong> <a href="https://www.mletard.com/" target="_blank" >Mathilde Letard</a></strong> (PhD, co-supervised with  Dimitri Lague, defended in Dec. 2023). LiDAR data analysis (bi-spectral 3D point clouds, waveforms)</p>
+            <p>&#x2022;  <strong> <a href="https://www.linkedin.com/in/iris-de-g%C3%A9lis-550103133/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=fr"  target="_blank" > Iris de Gelis</a></strong> (PhD, co-supervised with Sebastien Lefevre, defended in Apr. 2023). Change detection in 3D point clouds</p>
+            <p>&#x2022;  <strong> Emilien Alvarez-Vanhard</strong> (PhD, co-supervised with Thomas Houet, defended in 2021). UAV and satellite synergies. Now in post-doc with <a href="https://wwz.ifremer.fr/en" target="_blank"> IFREMER </a></p>
+            <p>&#x2022;  <strong> <a href="https://florent.guiotte.fr/" target="_blank"> Florent Guiotte</a></strong> (PhD, co-supervised with Sebastien Lefevre, defended in  2021). Morphological analysis of 3D point clouds. Now research engineer in <a href="https://lavionjaune.com/en/home/" target="_blank" > L'avion Jaune </a></p>
+            <p>&#x2022;  <strong> Sina Nakhostin</strong> (PhD, co-supervised with Nicolas Courty, defended in  2017). Hyperspectral unmixing. Now a post-doc with CNES </p>
+            <p>&#x2022;  <strong> Zheng Zhang</strong> (PhD, co-supervised with Tang Ping, defended in  2016). Time series analysis. Now has an academic position in Chinese Academy of Sciences</p>
+            <p>&#x2022;  <strong> Chen Xu</strong> (PhD, Ecole Centrale -Beijing, Lyon, defended in  2015). 3D turbulence analysis. Now has an academic position in Beihang University, Beijing, China </p>
+            <p>&#x2022;  <strong> Gong Xing</strong> (Phd,  defended in  2015). Assimilation of remote sensing data in plant growth models. Now works in a company in China.</p>
+            <p>&#x2022;  <strong> Pascal Zille</strong> (Phd, defended in  2014). Fluid flow analysis in images. Now is a data scientist in <a href="https://incepto-medical.com/en" target="_blank" > Incepto Medical </a>  </p>
+            <p>&#x2022;  <strong> Pauline Dusseux</strong> (PhD, co-supervised with Laurence Hubert-Moy, COSTEL, Rennes, defended in Dec. 2014). Time series analysis for grassland monitoring. Now associate professor in Grenoble University</p>
+            <p>&#x2022;  <strong> Pierre Allain</strong> (PhD, co-supervised with Nicolas Courty, defended 2012, VALORIA, Vannes).  Now is a data scientist in <a href="https://www.wipsea.com/" target="_blank" > wipsea </a> </p>
+            <p>&#x2022;  <strong> Antoine Lefebvre</strong> (PhD, co-supervised with Laurence Hubert-Moy, COSTEL, Rennes, defended in  2011). Creator and CEO of <a href="https://www.kermap.com/" target="_blank" > kermap </a> </p>
+            <div class="h5"> Past Post-docs </div>
+            <p>&#x2022;  <strong> Diego Di Carlo</strong> with <a href="https://people.irisa.fr/Nicolas.Courty/project/dynalearn/" target="_blank" > Dynalearn </a> project</p>
+            <p>&#x2022;  <strong> Guglielmo Fernandez-Garcia</strong> with <a href="https://anr-hiatus.github.io/" target="_blank" > ANR HIATUS</a> project</p>
+            <p>&#x2022;  <strong> Claire Thomas</strong> with  ANR MSG </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+<div class="section" id="resume">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Resume</div>
+    <div class="h6 mb-6 title">Background</div>
+    <div class="card-body">
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2011  :</strong></div>
+      <div class="col-sm-9"><a href="https://tel.archives-ouvertes.fr/tel-00616558/"  target="_blank" >PhD Habilitation</a>, Univ. Rennes 1, Signal processing & Computer Vision<br> </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 2002 :</strong></div>
+    <div class="col-sm-9"><a href="https://tel.archives-ouvertes.fr/tel-00005351"  target="_blank" >PhD</a>, Univ. Rennes 1, Signal processing & Computer Vision<br> </div>
+        <br></div>
+  <div class="row">
+    <div class="col-sm-2"><strong>&#x2022; 1999 :</strong></div>
+    <div class="col-sm-9"><a href="https://formations.univ-rennes1.fr/master-2-signal-image-systemes-automatique"  target="_blank" > Master of Science</a>,
+        MS, Signal, télécommunications, images, radar, Rennes I University<br></div>
+     </div>
+     <div class="row">
+       <div class="col-sm-2"><strong>&#x2022; 1999 :</strong></div>
+       <div class="col-sm-9"><a href="https://www.insa-rennes.fr/graduate-school-of-engineering.html"  target="_blank" > INSA Rennes engineer diploma</a>,
+       National Institute of Science and Technology, Electrical Engineering <br></div>
+        </div>
+  </div>
+
+
+<div class="h6 mb-6 title">Labs & positions</div>
+<div class="card-body">
+<div class="row">
+<div class="col-sm-2"><strong>&#x2022; 2012 -- present  :</strong></div>
+  <div class="col-sm-9"><a href="https://letg.cnrs.fr/"  target="_blank" >LETG-Rennes</a>, CNRS Director of Research, Rennes, France<br> </div>
+</div>
+<div class="row">
+<div class="col-sm-2"><strong>&#x2022; 2013 -- present  :</strong></div>
+<div class="col-sm-9">Association with <a href="http://www-obelix.irisa.fr/"  target="_blank" >OBELIX team</a>, IRISA, Vannes, France<br> </div>
+</div>
+<div class="row">
+<div class="col-sm-2"><strong>&#x2022; 2009 -- 2012  :</strong></div>
+<div class="col-sm-9"> <a href="https://cnrsbeijing.cnrs.fr/project/liama/"  target="_blank" >LIAMA</a>, Sino-Frech lab in computer sciences and applied mathematics, Beijing, China as CNRS researcher <br> </div>
+</div>
+<div class="row">
+<div class="col-sm-2"><strong>&#x2022; 2004 -- 2009  :</strong></div>
+<div class="col-sm-9"><a href="https://letg.cnrs.fr/"  target="_blank" >LETG-Rennes</a>, CNRS  Researcher, Rennes, France<br> </div>
+</div>
+<div class="row">
+<div class="col-sm-2"><strong>&#x2022; 2006 -- 2009  :</strong></div>
+<div class="col-sm-9">Association with <a href="https://www.irisa.fr/fluminance/indexFluminance.html"  target="_blank" >FLUMINANCE team</a>, INRIA, Rennes,  France<br> </div>
+</div>
+<div class="row">
+<div class="col-sm-2"><strong>&#x2022; 2003 -- 2004  :</strong></div>
+<div class="col-sm-9">Post doc with  <a href="https://www.inrae.fr/en"  target="_blank" >INRAE</a><br> </div>
+</div>
+<div class="row">
+<div class="col-sm-2"><strong>&#x2022; 2002 -- 2003  :</strong></div>
+<div class="col-sm-9">Assistant professor with <a href="https://www.univ-rennes1.fr/en"  target="_blank" >University Rennes I</a>, Rennes, France<br> </div>
+</div>
+</div>
+
+ <!-- <div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title">References</div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
+                <div class="h5 pt-2">Aiyana</div>
+                <p class="category">CEO / WEBM</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
+                <div class="h5 pt-2">Braiden</div>
+                <p class="category">CEO / Creativem</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
+                <div class="h5 pt-2">Alexander</div>
+                <p class="category">CEO / Webnote</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<div class="section" id="contact">
+  <div class="cc-contact-information">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <form action="https://formspree.io/f/xrgjwlwq" method="POST">
+                      <div class="p pb-3"><strong>To send me an email : see my addresses or fill the fields below</strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <p class="mb-0"><strong>Address </strong></p>
+                    <p class="pb-2">UMR 6554 LETG, Bâtiment N, Place  du Recteur Henri Le Moal, 35043 RENNES CEDEX, FRANCE</p>
+                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="pb-2">+33 2 99 14 18 77</p>
+                    <p class="mb-0"><strong>Email</strong></p>
+                    <p>thomas.corpetti @ univ-rennes2.fr</p>
+                    <p>thomas.corpetti @ cnrs.fr</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="h4 text-center title">Venue</div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2338.9178225745914!2d-1.7035432785412594!3d48.11924737129297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ee171fa0a4ec1%3A0xd794913a5328d07b!2sB%C3%A2timent%20N!5e0!3m2!1sfr!2sfr!4v1657293173153!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+
+    </div>
+    <footer class="footer">
+      <div class="h4 title text-center">Thomas Corpetti</div>
+      <div class="text-center text-muted">
+        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
+      </div>
+    </footer>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
+  </body>
 </html>
